@@ -1,4 +1,4 @@
-/*
+/
 //par ou impar
 function parimpar(n){
     if(n%2==0){
@@ -27,6 +27,12 @@ function fatorial(n){
 }
 
 console.log(fatorial(56))
+function fatorial(n){
+    if(n == 1){
+        return 1
+    }else{
+        return n * fatorial(n-1)
+    }
+}
+console.log(fatorial(10))
 
-
-*/
